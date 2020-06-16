@@ -11,8 +11,8 @@ Code for the CVPR 2020 paper: Learning the Redundancy-free Features for Generali
 ### Dependencies
 This code requires the following:
 - Python 3.6
-- Pytorch 1.1.0
-- scikit-learn
+- PyTorch 1.1.0
+- Scikit-learn
 
 ### Datasets
 
