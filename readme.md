@@ -58,13 +58,13 @@ Run `python RFF_GZSL.py` with the following args:
 
 For example:
 
-*  Softmax as the final classifier:
-```python
+*  softmax as the final classifier:
+```bash
 python3 RRF_GZSL.py --dataset CUB --syn_num 400 --preprocessing --batch_size 512 --attSize 312 --nz 312 --nepoch 208 --i_c 0.1 --cls_weight 0.2 --lr 0.0001 --manualSeed 3483 --nclass_all 200 --nclass_seen 150 --lr_dec --lr_dec_ep 100 --lr_dec_rate 0.95 --center_margin 190 --center_weight 0.1 --final_classifier softmax
 ```
 
 *  knn as the final classifier:
-```python
+```bash
 python3 RRF_GZSL.py --dataset CUB --syn_num 600 --preprocessing --batch_size 512 --attSize 312 --nz 312 --nepoch 851 --i_c 0.1 --cls_weight 0.2 --lr 0.0001 --manualSeed 3483 --nclass_all 200 --nclass_seen 150 --lr_dec --lr_dec_ep 100 --lr_dec_rate 0.95 --center_margin 190 --center_weight 0.1 --final_classifier knn --k 5
 ```
 
