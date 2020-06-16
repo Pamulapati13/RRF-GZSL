@@ -16,7 +16,7 @@ This code requires the following:
 
 ### Datasets
 
-Download the dataset (AWA1/CUB/SUN/FLO) from the work of [Xian et al. (CVPR2017)](http://datasets.d2.mpi-inf.mpg.de/xian/xlsa17.zip), and save correspongding data into directory `./data/`.
+Download the dataset (AWA1/CUB/SUN/FLO) from the work of [Xian et al. (CVPR2017)](http://datasets.d2.mpi-inf.mpg.de/xian/xlsa17.zip), and save corresponding data into directory `./data/`.
 
 ### Train and Test
 
